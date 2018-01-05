@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/babyrage666/lab10.svg?branch=master)](https://travis-ci.org/babyrage666/lab10)
+[![Build Status](https://travis-ci.org/babyrage666/lab11.svg?branch=master)](https://travis-ci.org/babyrage666/lab11)
 the demo application redirects data from stdin to a file **log.txt** using a package **print**.
 ## Laboratory work X
 
@@ -10,7 +10,7 @@ $ open https://github.com/ruslo/hunter
 
 ## Tasks
 
-- [X] 1. Создать публичный репозиторий с названием **lab10** на сервисе **GitHub**
+- [X] 1. Создать публичный репозиторий с названием **lab11** на сервисе **GitHub**
 - [X] 2. Сгенирировать токен для доступа к сервису **GitHub** с правами **repo**
 - [X] 3. Выполнить инструкцию учебного материала
 - [X] 4. Ознакомиться со ссылками учебного материала
@@ -109,9 +109,9 @@ $ cd ..
 Копируем абсолютный адрес утилиты **hunter**.
 ```ShellSession
 $ export HUNTER_ROOT=`pwd`/hunter
-$ mkdir lab10 && cd lab10
+$ mkdir lab11 && cd lab11
 $ git init
-$ git remote add origin https://github.com/${GITHUB_USERNAME}/lab10
+$ git remote add origin https://github.com/${GITHUB_USERNAME}/lab11
 ```
 Создаем файл **demo.cpp** и добавляем в него код программы.
 ```ShellSession
@@ -191,7 +191,7 @@ EOF
 Создаем **README.md** файл.
 ```ShellSession
 $ cat > README.md <<EOF
-[![Build Status](https://travis-ci.org/${GITHUB_USERNAME}/lab10.svg?branch=master)](https://travis-ci.org/${GITHUB_USERNAME}/lab10)
+[![Build Status](https://travis-ci.org/${GITHUB_USERNAME}/lab11.svg?branch=master)](https://travis-ci.org/${GITHUB_USERNAME}/lab11)
 the demo application redirects data from stdin to a file **log.txt** using a package **print**.
 EOF
 ```
